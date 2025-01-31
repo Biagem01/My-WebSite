@@ -1,0 +1,60 @@
+$primary-font: "Montserrat", serif;
+$secondary-font: "Yuji Syuku", serif;
+$third-font:"Raleway", serif;
+$four-font:"Playfair Display SC", serif;
+$background-color: rgb(255, 255, 255);
+$text-color: #000;
+
+
+
+.container {
+
+    
+    .form-control{
+        border-radius: 20px;
+        font-family: $third-font;
+    }
+
+  .form-control-textarea{
+    text-decoration: none;
+    border-radius: 15px;
+  }
+
+  .form-label{
+    font-family: $primary-font;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .btn{
+    font-family: $primary-font;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #21D192;
+    border: none;
+  }
+
+  h3{
+    font-family: $primary-font;
+    font-size: 3rem;
+  }
+
+  p{
+    font-family: $third-font;
+    font-size: 1.6rem;
+    font-weight: 200;
+  }
+
+
+
+
+ 
+
+
+}
+
+
+
+footer{
+    margin-top: 180px;
+}

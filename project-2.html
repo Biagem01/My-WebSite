@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-WebSite</title>
+    <link rel="icon" href="assets/img/Logo.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/scss/project-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne+Mono&family=Yuji+Syuku&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+
+
+<body>
+
+
+    <header>
+        <a href="index.html#Home"><img src="assets/img/Logo.png" alt="Sito Logo"></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="index.html#about">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="project-intro text-left">
+        <div class="container-fluid">
+            <span class="badge bg-success status">New</span>
+            <h1 class="project-title">Database SQL Project</h1>
+            <p class="project-subtitle">Database Development</p>
+            <div class="image-container mt-4">
+                <img src="assets/img/database-2-image.jpg"  class="img-fluid">
+            </div>
+        </div>
+        <hr class="custom-hr">
+     </section>
+
+
+     <section class="project-details ">
+        <div class="container">
+            <div class="row">
+                <!-- Dettagli a sinistra -->
+                <div class="col-md-4 details">
+                    <p><strong>DATE</strong><br> January - 2024</p>
+                    <p><strong>TEAM</strong><br> Biagio Cubisino</p>
+                    <p><strong>ROLE</strong><br> Programmer and Database Develeper</p>
+                </div>
+    
+                <!-- Descrizione a destra -->
+                <div class="col-md-8 description">
+                         <h2>INTRODUCTION</h2>
+                    <p>
+                        
+                        This project is a system developed in SQL to manage event ticket sales. 
+                        It focuses on the conceptual, logical and physical design of a database to manage information related to the events, venues, tickets, customers, artists and promoters involved in the ticket sales process.
+                    </p>
+                    <h2>MAIN FEATURES</h2>
+                    <p>
+                        Event Management: The system allows administrators to add, edit and delete events, specifying details such as date, time, location and type of event. 
+                        Ticket Management: Users can view available events and purchase tickets for desired events. 
+                        The system keeps track of available seats for each event and automatically manages ticket sales. 
+                        Sales Transactions: The system records ticket sales transactions, including details such as transaction ID, customer ID, event ID, quantity of tickets sold, and transaction total.
+                        
+                    </p>
+
+                     <h2>GENERAL SETTINGS</h2>
+
+                    <p>
+              
+                        Splash Screen: A personalized splash screen that introduces the game to the user, creating an impression of anticipation and anticipation.
+                        Game Icon: A representative icon for the game, which helps identify and differentiate it within the device or gaming platform.
+
+                    </p>
+
+                    <h2>CONCEPTUAL DESIGN</h2>
+
+                    <p>
+                        
+                        The conceptual design aims to collect the requirements requested by the customer and define the conceptual model of the database. This includes:
+                        <ul>
+                            <li>Entities involved: :  Evento, Luogo, Biglietto, Cliente, Artista, Promotore.</li>
+                            <li>
+                                Relations: Among the entities there are relationships such as the association of an event with a location, the participation of an artist in an event, and the purchase of tickets by customers</li>
+                          </ul>
+                          
+                    
+                    
+                    </p>
+                    <h2>
+                       SYSTEM REQUIREMENTS</h2>
+                    <p>
+                        
+                           
+                        The database system must be able to handle different types of data and information, including:
+                        <ul>
+                            <li>
+                                Event Information: Event name, date, time, description</li>
+                            <li>
+                                
+                                Venue Information: Venue name, address, city, state, maximum capacity.</li>
+
+                            <li> 
+                                Ticket Information: Ticket type, price, description, quantity available.</li>
+
+                            <li>
+                                Customer information: Name, surname, address, gender.</li>
+                
+
+                            <li>Information on the Artists: Name, musical genre, biography.</li>
+
+                            <li> 
+                                Information on the Promoters: Name, surname, telephone number.</li>
+                          </ul>
+                          
+                    </p>
+
+
+                    <h2>
+                       LOGICAL DESIGN</h2>
+
+
+                       <p>
+                        Logical design is about translating the conceptual model into a relational database schema. The entities and relationships defined in the conceptual design are translated into tables and relational integrity constraints.
+                       </p>
+
+
+
+                    <h2>CONCLUSION</h2>
+
+                    <p>
+                        The event ticketing system is an important resource for efficiently managing the ticketing process and event attendance. Thanks to the conceptual, logical and physical design of the database, it was possible to define a complete and well-organized data structure to manage crucial information relating to events, venues, tickets, customers, artists and promoters.
+                        You can find the complete project on <a href="https://github.com/Biagem01/Database-SQL-Project">Github</a>
+                    </p>
+
+
+                   
+
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+
+
+    <footer class="text-center bg-body-tertiary">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+    
+      
+            <!-- Instagram -->
+            <a
+            
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://www.instagram.com/biagio_cubisino/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://www.linkedin.com/in/biagio-cubisino-40a6ab252/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://github.com/Biagem01"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">Biagio Cubisino</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    
+
+    
+    
+
+
+    
+    
+
+
+
+</body>

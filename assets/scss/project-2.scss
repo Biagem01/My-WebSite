@@ -1,0 +1,215 @@
+$primary-font: "Montserrat", serif;
+$secondary-font: "Yuji Syuku", serif;
+$third-font:"Raleway", serif;
+$four-font:"Playfair Display SC", serif;
+$background-color: rgb(255, 255, 255);
+$text-color: #000;
+
+
+
+body{
+
+    overflow: visible;
+    
+    h1{
+        
+        font-family: $primary-font;
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+
+}
+
+header {
+    font-family: $secondary-font;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.1); /* Sfondo bianco con opacità iniziale */
+    backdrop-filter: blur(10px); /* Effetto sfocatura sotto la navbar */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transizione fluida */
+
+    img {
+        width: 50px;
+        height: auto;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: $text-color;
+            text-decoration: none;
+            font-size: 1rem;
+
+            &:hover {
+                color: rgb(123, 123, 123);
+            }
+        }
+    }
+}
+
+.project-intro {
+    padding: 80px 0;
+    background-color: $background-color;
+    color: $text-color;
+
+    .image-container {
+       
+       
+        margin: 0 auto;
+        text-align: center;
+
+        img {
+            max-width:80%; // Dimensione più grande per l'immagine
+            
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+
+    .custom-hr {
+        margin: 70px 0;
+        margin-right: 150px;
+        margin-left: 150px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: $text-color;
+    }
+
+
+    .project-title{
+        font-family: $primary-font;
+        font-weight: 400;
+    }
+
+    .badge{
+        font-family: $primary-font;
+        font-size: 1.2rem;
+    }
+
+    .project-subtitle{
+        font-family: $secondary-font;
+        font-size: 1.2rem;
+    }
+}
+
+
+.project-details {
+    background-color: #ffffff; // Sfondo nero
+    color: #000000; // Testo bianco
+    
+
+    .details {
+        margin-top: 200px;
+        strong {
+            font-weight: bold;
+            color: #000000; // Colore evidenziato per i titoli
+            text-transform: uppercase;
+            font-family: $primary-font;
+        }
+
+        p {
+            font-family: $secondary-font;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-size: 0.9rem;
+        }
+    }
+
+    .description {
+        font-size: 1rem;
+        line-height: 1.8;
+        color: rgba(0, 0, 0, 0.8); // Testo secondario con opacità
+
+        h2{
+            margin-top: 60px;
+            font-size: 1.5rem;
+            font-family: $primary-font;
+            font-weight: bold;
+        }
+        li{
+            font-family: $secondary-font;
+        }
+
+        p{
+            font-family: $secondary-font;
+        }
+    }
+
+
+    a {
+        color: #28a745;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+footer {
+    margin-top: 180px;
+    background-color: #ECEFF1;
+    min-height: 10vh;
+    text-decoration: none;
+    font-family: $third-font;
+
+
+    .d-flex{
+        background-color: #21D192;
+    }
+
+
+    hr{ 
+        background-color: #622afb; 
+        height: 2px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .btn {
+        font-size: 1rem;
+        
+        color: green;
+        background-color: #21D192;
+        border: none;
+        color: #000;
+        font-weight: 200;
+        text-decoration: none;
+        border-radius: 20px;
+        font-family: &$third-font;
+      
+        }
+
+        .btn-primary:hover {
+
+            transform: scale(1.10); /* Effetto hover */
+            background-color: #21D192;
+            border-color: #21D192;
+          
+         }
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+.container .form-control {
+  border-radius: 20px;
+  font-family: "Raleway", serif;
+}
+.container .form-control-textarea {
+  text-decoration: none;
+  border-radius: 15px;
+}
+.container .form-label {
+  font-family: "Montserrat", serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.container .btn {
+  font-family: "Montserrat", serif;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #21D192;
+  border: none;
+}
+.container h3 {
+  font-family: "Montserrat", serif;
+  font-size: 3rem;
+}
+.container p {
+  font-family: "Raleway", serif;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+footer {
+  margin-top: 180px;
+}/*# sourceMappingURL=contact.css.map */

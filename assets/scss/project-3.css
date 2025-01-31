@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body {
+  overflow: visible;
+}
+body h1 {
+  font-family: "Montserrat", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+header {
+  font-family: "Yuji Syuku", serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.1); /* Sfondo bianco con opacità iniziale */
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px); /* Effetto sfocatura sotto la navbar */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transizione fluida */
+}
+header img {
+  width: 50px;
+  height: auto;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+header nav a:hover {
+  color: rgb(123, 123, 123);
+}
+
+.project-intro {
+  padding: 80px 0;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.project-intro .image-container {
+  margin: 0 auto;
+  text-align: center;
+}
+.project-intro .image-container img {
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.project-intro .custom-hr {
+  margin: 70px 0;
+  margin-right: 150px;
+  margin-left: 150px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+.project-intro .project-title {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+}
+.project-intro .badge {
+  font-family: "Montserrat", serif;
+  font-size: 1.2rem;
+}
+.project-intro .project-subtitle {
+  font-family: "Yuji Syuku", serif;
+  font-size: 1.2rem;
+}
+
+.project-details {
+  background-color: #ffffff;
+  color: #000000;
+}
+.project-details .details {
+  margin-top: 200px;
+}
+.project-details .details strong {
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+}
+.project-details .details p {
+  font-family: "Yuji Syuku", serif;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+.project-details .description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.8);
+}
+.project-details .description h2 {
+  margin-top: 60px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+}
+.project-details .description li {
+  font-family: "Yuji Syuku", serif;
+}
+.project-details .description p {
+  font-family: "Yuji Syuku", serif;
+}
+.project-details a {
+  color: #28a745;
+  text-decoration: none;
+}
+.project-details a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 180px;
+  background-color: #ECEFF1;
+  min-height: 10vh;
+  text-decoration: none;
+  font-family: "Raleway", serif;
+}
+footer .d-flex {
+  background-color: #21D192;
+}
+footer hr {
+  background-color: #622afb;
+  height: 2px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .btn {
+  font-size: 1rem;
+  color: green;
+  background-color: #21D192;
+  border: none;
+  color: #000;
+  font-weight: 200;
+  text-decoration: none;
+  border-radius: 20px;
+  font-family: footer .btn "Raleway", serif;
+}
+footer .btn-primary:hover {
+  transform: scale(1.1); /* Effetto hover */
+  background-color: #21D192;
+  border-color: #21D192;
+}/*# sourceMappingURL=project-3.css.map */

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  overflow: visible;
+}
+body h1 {
+  font-family: "Montserrat", serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+header {
+  font-family: "Yuji Syuku", serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.1); /* Sfondo bianco con opacità iniziale */
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px); /* Effetto sfocatura sotto la navbar */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transizione fluida */
+}
+header img {
+  width: 50px;
+  height: auto;
+}
+header nav {
+  display: flex;
+  gap: 20px;
+}
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+header nav a:hover {
+  color: rgb(123, 123, 123);
+}
+
+#Projects .project-card-small {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  overflow: hidden;
+  /* Rimuovi o riduci questo margine */
+  margin-top: 20px; /* ad esempio, riduci il margine */
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#Projects .project-card-small:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgb(0, 0, 0);
+}
+#Projects .project-card-small a {
+  text-decoration: none;
+  color: inherit;
+}
+#Projects .project-card-small a .project-image {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+#Projects .project-card-small a .project-image .project-label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#Projects .project-card-small a .project-info {
+  padding: 10px;
+  text-align: center;
+}
+#Projects .project-card-small a .project-info h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Montserrat", serif;
+  margin: 0;
+}
+#Projects .project-card-small a .project-info p {
+  font-size: 0.7rem;
+  font-family: "Yuji Syuku", serif;
+  color: #6c757d;
+}/*# sourceMappingURL=projects.css.map */
